@@ -1,0 +1,36 @@
+{
+  "name": "encryption-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI to interact with node-crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thetoyking91/asymmetric-encryption.git"
+  },
+  "keywords": [
+    "encryption",
+    "crypto",
+    "cryptography",
+    "cli"
+  ],
+  "author": "Ryan McCoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thetoyking91/asymmetric-encryption/issues"
+  },
+  "homepage": "https://github.com/Thetoyking91/asymmetric-encryption#readme",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^6.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.5",
+    "minimist": "^1.2.8",
+    "touch": "^3.1.0"
+  }
+}
